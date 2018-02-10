@@ -1,0 +1,9 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =7
+let g:netrw_dirhist_1='/Users/koheihisakuni/goprojects/src/github.com/khisakuni/kommunicake'
+let g:netrw_dirhist_2='/Users/koheihisakuni/goprojects/src/github.com/khisakuni/kommunicake/app'
+let g:netrw_dirhist_3='/Users/koheihisakuni/goprojects/src/github.com/khisakuni/kommunicake'
+let g:netrw_dirhist_4='/Users/koheihisakuni/goprojects/src/github.com/khisakuni/kommunicake/app'
+let g:netrw_dirhist_5='/Users/koheihisakuni/goprojects/src/github.com/khisakuni/kommunicake'
+let g:netrw_dirhist_6='/Users/koheihisakuni/goprojects/src/github.com/khisakuni/kommunicake/cmd'
+let g:netrw_dirhist_7='/Users/koheihisakuni/goprojects/src/github.com/khisakuni/kommunicake/cmd/app'
