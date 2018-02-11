@@ -27,5 +27,12 @@ let g:ale_fixers = {
 let g:ale_fix_on_save = 1
 let g:ale_go_metalinter_options = 'fast'
 
+" NERDTree config
+let loaded_netrwPlugin = 1
+au VimEnter *  NERDTree
+
 " Change leader form \ to ;
 let mapleader=";"
+
+" Mappings
+map <Leader>\ :NERDTreeToggle<CR>
