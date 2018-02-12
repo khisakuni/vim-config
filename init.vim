@@ -36,3 +36,5 @@ let mapleader=";"
 
 " Mappings
 map <Leader>\ :NERDTreeToggle<CR>
+
+set clipboard=unnamed
