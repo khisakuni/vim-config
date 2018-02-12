@@ -15,6 +15,9 @@ Plug 'nsf/gocode', { 'rtp': 'vim', 'do': '~/.vim/plugged/gocode/vim/symlink.sh' 
 " Go development environment
 Plug 'fatih/vim-go', { 'do': ':GoInstallBinaries' }
 
+" Ack to search files
+Plug 'mileszs/ack.vim'
+
 call plug#end()
 
 " Ale Configs
@@ -41,3 +44,6 @@ set clipboard=unnamed
 
 " Display line numbers
 set number
+
+" Use Silver Searcher
+let g:ackprg = 'ag --nogroup --nocolor --column'
