@@ -38,3 +38,6 @@ let mapleader=";"
 map <Leader>\ :NERDTreeToggle<CR>
 
 set clipboard=unnamed
+
+" Display line numbers
+set number
