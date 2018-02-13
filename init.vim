@@ -62,3 +62,13 @@ endif
 
 " Don't wrap lines
 set nowrap
+"
+" Trim whitespace
+autocmd BufWritePre * :%s/\s\+$//e
+
+" Tabs / indentation
+set tabstop=2
+set shiftwidth=2
+set expandtab
+set smartindent
+
