@@ -12,6 +12,9 @@ Plug 'w0rp/ale'
 
 Plug 'nsf/gocode', { 'rtp': 'vim', 'do': '~/.vim/plugged/gocode/vim/symlink.sh' }
 
+" ES6 highlighting
+Plug 'isRuslan/vim-es6'
+
 " Go development environment
 Plug 'fatih/vim-go', { 'do': ':GoInstallBinaries' }
 
@@ -35,7 +38,7 @@ let g:ale_go_metalinter_options = 'fast'
 
 " NERDTree config
 let loaded_netrwPlugin = 1
-au VimEnter *  NERDTree
+" au VimEnter *  NERDTree
 
 " Change leader form \ to ;
 let mapleader=";"
@@ -72,3 +75,5 @@ set shiftwidth=2
 set expandtab
 set smartindent
 
+" Disable <c-f> because it's the tmux cmd
+map <c-f> <Nop>

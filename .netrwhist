@@ -1,7 +1,8 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_cnt =6
 let g:netrw_dirhist_1='/Users/koheihisakuni/dev/goprojects/src/github.com/khisakuni/kommunicake'
 let g:netrw_dirhist_2='/Users/koheihisakuni/dev/goprojects/src/github.com/khisakuni/kommunicake/app'
 let g:netrw_dirhist_3='/Users/koheihisakuni/dev/goprojects/src/github.com/khisakuni/kommunicake'
 let g:netrw_dirhist_4='/Users/koheihisakuni/dev/goprojects/src/github.com/khisakuni/kommunicake/database'
 let g:netrw_dirhist_5='/Users/koheihisakuni/dev/goprojects/src/github.com/khisakuni/kommunicake'
+let g:netrw_dirhist_6='/Users/koheihisakuni/.config/nvim'
